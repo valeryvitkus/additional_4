@@ -1,6 +1,6 @@
 module.exports = function multiply(first, second) {
-  var a = parseFloat(first);
-  var b = parseFloat(second);
+  var a = parseInt(first);
+  var b = parseInt(second);
   var mult = a * b ;
-  return mult;
+  return '' + mult;
 }
